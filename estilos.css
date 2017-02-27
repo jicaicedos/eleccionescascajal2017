@@ -4,11 +4,43 @@ header {
 }
 
 h1 {
+	margin-top: 30px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
 
 .img_escudo {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
 	width: 100px;
 	height: 100px;
+}
+
+.menu__item {
+	background: #4756A0;
+	border-radius: 10px;
+	list-style: none;
+
+	margin: 5px 2px;
+	padding: 10px;
+}
+
+.menu__item a {
+	text-decoration: none;
+
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;	
+	color: white;
+}
+
+.menu_primaria {
+	display: -webkit-box;
+}
+
+.menu_secundaria {
+	display: -webkit-box;
 }
