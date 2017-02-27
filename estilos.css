@@ -19,17 +19,15 @@ h1 {
 h2 {
 	margin: 0px;
 	padding: 10px;
-	background: #f1f17c;
+	background: #eaea03;
 }
 
 footer {
 	font-size: 10px;
-	background: #f1f17c;	
+	background: #eaea03;	
 	padding-top: 20px;
     padding-bottom: 20px;
 }
-
-
 
 .img_escudo {
 	border-radius: 50%;
@@ -62,9 +60,11 @@ footer {
 }
 
 .menu_primaria {
-	display: -webkit-inline-box;
+	display: inline-block
 }
-
+.menu_primaria .menu__item {
+	width: 150px;
+}
 .menu_secundaria {
 	display: inline-block;
 }
