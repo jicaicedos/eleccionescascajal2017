@@ -2,7 +2,8 @@ header {
 	font-size: 12px;
 	display: flex;
 	justify-content: center;
-	background: #d0f7d0;	
+	background: #008106;	
+	color: white;
 }
 
 body {
@@ -38,6 +39,7 @@ footer {
 	width: 100px;
 	height: 100px;
 	margin: 5px;
+	border: 2px solid #F1F17C;
 }
 
 .menu__item {
