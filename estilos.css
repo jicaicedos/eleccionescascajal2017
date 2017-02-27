@@ -23,7 +23,12 @@ h2 {
 
 footer {
 	font-size: 10px;
+	background: #f1f17c;	
+	padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
 
 .img_escudo {
 	border-radius: 50%;
