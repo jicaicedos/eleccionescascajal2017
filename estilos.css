@@ -44,3 +44,21 @@ h1 {
 .menu_secundaria {
 	display: -webkit-box;
 }
+
+/*Mobile (landscape)*/
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+	html {
+		font-size: 16px;
+	}
+	.menu {
+		display: block;
+	}	
+	.menu__item {
+		margin-bottom: 2px;
+	}
+/*	.contenido {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	*/
+}
