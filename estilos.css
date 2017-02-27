@@ -50,7 +50,7 @@ h1 {
 	html {
 		font-size: 16px;
 	}
-	.menu {
+	.menu_primaria, .menu_secundaria {
 		display: block;
 	}	
 	.menu__item {
