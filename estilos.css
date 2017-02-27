@@ -60,11 +60,11 @@ footer {
 }
 
 .menu_primaria {
-	display: inline-block
+	display: -webkit-inline-box;
 }
 
 .menu_primaria .menu__item {
-	width: 150px;
+	width: 110px;
 }
 .menu_secundaria {
 	display: inline-block;
