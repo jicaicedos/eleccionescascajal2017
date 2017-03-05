@@ -29,6 +29,17 @@ footer {
     padding-bottom: 20px;
 }
 
+.estructura {
+	display: block;
+}
+
+/*.estructura__item {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+*/
 .img_escudo {
 	border-radius: 50%;
 	margin-top: 30px;
@@ -38,6 +49,19 @@ footer {
 	height: 100px;
 	margin: 5px;
 	border: 2px solid #F1F17C;
+}
+
+.menu_preescolar {
+	display: -webkit-inline-box;
+	margin: 0px;
+}
+
+.menu_preescolar .menu__item {
+	background: #06b1a1;	
+}
+
+.menu_preescolar .menu__item a {
+	background: #06b1a1;
 }
 
 .menu__item {
@@ -61,6 +85,7 @@ footer {
 
 .menu_primaria {
 	display: -webkit-inline-box;
+	margin: 0px;
 }
 
 .menu_primaria .menu__item {
@@ -68,6 +93,7 @@ footer {
 }
 .menu_secundaria {
 	display: inline-block;
+	margin: 0px;	
 }
 .menu_secundaria .menu__item {
 	width: 150px;
