@@ -99,3 +99,11 @@ footer {
 	width: 150px;
 }
 
+.grados {
+	/*background: red;*/
+	display: -webkit-box;
+}
+
+.grados_8910 {
+	display: inline-block;
+}
