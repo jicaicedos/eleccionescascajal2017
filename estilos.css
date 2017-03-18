@@ -57,13 +57,17 @@ footer {
 }
 
 .menu_preescolar .menu__item {
-	background: #06b1a1;	
+	background: #b7e4df;
 }
 
 .menu_preescolar .menu__item a {
-	background: #06b1a1;
+		color: teal;
 }
 
+/*.menu_preescolar .menu__item a {
+	background: #06b1a1;
+}
+*/
 .menu__item {
 	background: #4756A0;
 	border-radius: 10px;
@@ -89,19 +93,30 @@ footer {
 }
 
 .menu_primaria .menu__item {
+	background: #46b2a2;
 	width: 110px;
 }
+
 .menu_secundaria {
 	display: inline-block;
 	margin: 0px;	
 }
-.menu_secundaria .menu__item {
-	width: 150px;
+.grados_6 {
+	display: -webkit-box;
 }
 
-.grados {
-	/*background: red;*/
+.grados_6 .menu__item {
+	background: #017067;
+}
+
+
+.grados_7 {
+	width: 150px;
 	display: -webkit-box;
+}
+
+.grados_7 .menu__item {
+	background: #003934;
 }
 
 .grados_8910 {
